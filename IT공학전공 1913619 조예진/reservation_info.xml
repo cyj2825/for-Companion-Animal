@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:paddingBottom="60dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:background="@drawable/dog">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="숙박시설 예약에 성공하셨습니다. \n 회원님의 예약정보는 다음과 같습니다. \n"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="Result\n"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="예약 완료하기" />
+</LinearLayout>

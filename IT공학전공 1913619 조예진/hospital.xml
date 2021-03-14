@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dog"
+    tools:context=".Hospital">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_photo"
+            android:textSize="19dp"
+            android:id="@+id/btn_photo"
+            android:text="반려동물 상태를 보기 위한 사진 찍기"/>
+
+        <TextView
+            android:id="@+id/ieul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_photo"
+            android:text="\n * 이을반려동물케어센터 *"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/ieulex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ieul"
+            android:text=" 서울 서초구 사평대로 20길 3 신화빌딩 1층에 위치\n - 특수 클리닉과 재활특화클리닉\n - 애견호텔, 애견필라테스 등 존재"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/move_hos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ieulex"
+            android:onClick="mov_hos1"
+            android:textSize="20dp"
+            android:text="이을반려동물케어센터 예약하기" />
+
+        <TextView
+            android:id="@+id/aidah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/move_hos1"
+            android:text="\n * 에이드동물병원 *"
+            android:textSize="29dp"
+            android:textStyle="bold"  />
+        <TextView
+            android:id="@+id/aidahex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aidah"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:text=" 서울 강남구 논현로 813 1F, B1F에 위치\n - 24시간 연중무휴\n - 야간응급센터 운영" />
+        <Button
+            android:id="@+id/move_hos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aidahex"
+            android:onClick="mov_hos2"
+            android:textSize="20dp"
+            android:text="에이드동물병원 예약하기" />
+
+        <TextView
+            android:id="@+id/smart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/move_hos2"
+            android:text="\n * 스마트동물병원 *"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/smartex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smart"
+            android:text=" 서울 강남구 도산대로 213에 위치\n - 애견 스파, 반려동물 호텔, 애견 유치원 등 Medical Service가 존재"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/move_hos3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smartex"
+            android:onClick="mov_hos3"
+            android:textSize="20dp"
+            android:text="스마트동물병원 예약하기" />
+
+    </RelativeLayout>
+</ScrollView>
